@@ -13,16 +13,13 @@
 
 <h2>Using</h2>
 <code>
+stack.peek();
 stack.push(6);
 stack.peek();
 </code>
 
 <h2>Output</h2>
 <code>
-6
-5
-4
-3
-2
-1
+5 - before push
+6 - after push
 </code>
