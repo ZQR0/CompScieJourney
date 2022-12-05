@@ -1,6 +1,6 @@
 <h1>Stack</h1>
 <p>Abstract datatype that is a list of elements organized by a LIFO recipe.</p>
-![Stack](src/main/java/org/cs/Images/stack.png)
+<img src="https://avatars.mds.yandex.net/i?id=ee84b286c91b7048d7fadd8f6ae76678-5286894-images-thumbs&n=13&exp=1">
 
 <h2>Input stack</h2>
 <code>
