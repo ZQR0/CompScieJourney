@@ -3,14 +3,39 @@ package org.cs.DataStructures.Trees;
 import java.util.LinkedList;
 import java.util.Queue;
 
+/*
+* @author ZQR0
+* @since 09.12.2022
+* Binary tree realisation with static Node class
+* */
 public class BinaryTree {
 
+    /*
+    * The class implements nodes that will go to the Binary Tree,
+    * they contain data about next element and link to them
+    * */
     static class Node {
+        /*
+        * data for the node
+        * */
         public int data;
+        /*
+        * The node to left of this one
+        */
         public Node left;
+        /*
+         * The node to right of this one
+         */
         public Node right;
+        /*
+        * The parent of this node
+        */
         public Node parent;
 
+        /*
+        * Constructor
+        * @param int value to put it in the node
+        */
         public Node(int value) {
             left = null;
             right = null;
@@ -19,6 +44,9 @@ public class BinaryTree {
         }
     }
 
+    /*
+    * The root of tree
+    */
     private Node _root;
 
     public BinaryTree() {
