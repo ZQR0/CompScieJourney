@@ -57,6 +57,12 @@ public class BinaryTree {
         this._root = root;
     }
 
+    /*
+    * @returns current node of tree
+    * @default is _root node
+    * Method to find node
+    * @param int key - every node has a key, we can find it by this
+    */
     public Node find(int key) {
         Node current = _root;
 
@@ -80,6 +86,10 @@ public class BinaryTree {
         return null;
     }
 
+    /*
+    * Method for adding new node in tree
+    * @param int value - value that we want to add
+    */
     public void put(int value) {
         Node newNode = new Node(value);
         if (_root == null) {
@@ -97,6 +107,11 @@ public class BinaryTree {
         }
     }
 
+    /*
+    * Method to remove an element by key of node
+    * a lot of checks to remove an element, because we can break the tree if we don't use it
+    * @param int value - value we need to remove
+    */
     public boolean remove(int value) {
         Node temp = find(value);
 
@@ -179,6 +194,13 @@ public class BinaryTree {
         }
     }
 
+    /*
+     * This method finds the Successor to given Node
+     * Move right once and go
+     * left down the tree as far as you can
+     * @param Node n - node to find successor of
+     * @returns successor of Node
+    */
     public Node findSuccessor(Node n) {
         if (n.right == null) {
             return n;
@@ -192,10 +214,16 @@ public class BinaryTree {
         return parent;
     }
 
+    /*
+    * @returns the root of node
+    */
     public Node getRoot() {
         return _root;
     }
 
+    /*
+    * Prints left child -- root -- right child
+    */
     public void inOrder(Node localRoot) {
         if (localRoot != null) {
             inOrder(localRoot.left);
@@ -204,6 +232,9 @@ public class BinaryTree {
         }
     }
 
+    /*
+    * Prints left child -- right child -- root
+    */
     public void postOrder(Node localRoot) {
         if (localRoot != null) {
             postOrder(localRoot.left);
@@ -212,6 +243,9 @@ public class BinaryTree {
         }
     }
 
+    /*
+    * Prints the tree in a breadth first search order
+    * @param Node local root - root of binary tree*/
     public void bfs(Node localRoot) {
         Queue<Node> queue = new LinkedList<>();
 
