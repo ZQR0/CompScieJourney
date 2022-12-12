@@ -12,3 +12,9 @@
 <p>Little note: common formula to solve this task is --> </p>
 <code>int invertedNumber = 0;</code><br>
 <code>invertedNumber = invertedNumber * 10 + n % 10;</code>
+
+<h3>Sqrt(x)</h3>
+<a href="https://leetcode.com/problems/sqrtx/description/">Link for this task</a>
+<p>Little note: this is a good task to upgrade ur math skills in low-level</p>
+<code>int input = 144</code><br>
+<code>int output = 12</code>
