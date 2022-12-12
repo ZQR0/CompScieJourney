@@ -18,3 +18,10 @@
 <p>Little note: this is a good task to upgrade ur math skills in low-level</p>
 <code>int input = 144</code><br>
 <code>int output = 12</code>
+
+<h3>Length of Last Word</h3>
+<a href="https://leetcode.com/problems/length-of-last-word/description/">Link for this task</a>
+<p>Little note: there's 2 solutions of this task</p>
+<p>LengthOfLastWord1 & LengthOfLastWord2</p>
+<code>String input = "Hello World"</code><br>
+<code>int output = 5</code>
