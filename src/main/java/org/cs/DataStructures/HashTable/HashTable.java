@@ -8,17 +8,29 @@ import java.util.Objects;
 * @since 14.12.2022
 * Implementation of HashTable (key - value pair) using HashNode\
 * Loaded factor for this table is 0.8
-* @param K - key of pair
-* @param V - value by key
+* @param K key - key of pair
+* @param V value - value by key
 */
 public class HashTable<K, V> {
 
+    /*
+    * Array of all hash nodes
+    */
     ArrayList<HashNode<K, V>> _buckets;
 
+    /*
+    * Size of hash table
+    */
     private int _size;
 
+    /*
+    * Current capacity of array list
+    */
     private int _numBuckets;
 
+    /*
+    * Constructor
+    */
     public HashTable() {
         _buckets = new ArrayList<>();
         _numBuckets = 10;
@@ -29,18 +41,34 @@ public class HashTable<K, V> {
         }
     }
 
+    /*
+    * @method checks is hash table empty
+    * @return boolean true or false
+    */
     public boolean isEmpty() {
         return _buckets.size() == 0;
     }
 
+    /*
+    * @method to get current size of hash table
+    * @return int
+    */
     public int size() {
         return _size;
     }
 
+    /*
+    * @method for getting a hash code of input K key
+    * @return int hashcode
+    */
     private int hashCode(K key) {
         return Objects.hashCode(key);
     }
 
+    /*
+    * @method for getting index of key in _buckets
+    * @return int index
+    */
     public int getBucketIndex(K key) {
         int hashCode = hashCode(key);
         int index = hashCode % _numBuckets;
@@ -49,6 +77,10 @@ public class HashTable<K, V> {
         return index;
     }
 
+    /*
+    * @method for removing a pair by key
+    * @return value of removed pair
+    */
     public V remove(K key) {
         int index = getBucketIndex(key);
         int hashCode = hashCode(key);
@@ -80,6 +112,9 @@ public class HashTable<K, V> {
         return head._value;
     }
 
+    /*
+    * @method for adding a key and value to the table
+    */
     public void add(K key, V value) {
         int index = getBucketIndex(key);
         int hashCode = hashCode(key);
@@ -119,6 +154,10 @@ public class HashTable<K, V> {
 
     }
 
+    /*
+    * @method for getting a value by key
+    * @return V value
+    */
     public V get(K key) {
         int index = getBucketIndex(key);
         int hashCode = hashCode(key);
