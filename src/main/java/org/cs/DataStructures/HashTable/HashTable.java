@@ -135,7 +135,7 @@ public class HashTable<K, V> {
         node.next = head;
         _buckets.set(index, node);
 
-        if ((1.0 * _size) / _numBuckets >= 7) {
+        if ((1.0 * _size) / _numBuckets >= 8) {
             ArrayList<HashNode<K, V>> temp = _buckets;
             _numBuckets = 2 * _numBuckets;
             _size = 0;
