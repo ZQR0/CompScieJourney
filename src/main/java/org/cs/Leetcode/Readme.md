@@ -25,3 +25,9 @@
 <p>LengthOfLastWord1 & LengthOfLastWord2</p>
 <code>String input = "Hello World"</code><br>
 <code>int output = 5</code>
+
+<h3>Longest Common Prefix</h3>
+<a href="https://leetcode.com/problems/longest-common-prefix/">Link for this task</a>
+
+<h3>Zigzag Conversion</h3>
+<a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
