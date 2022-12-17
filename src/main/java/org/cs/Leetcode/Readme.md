@@ -31,3 +31,7 @@
 
 <h3>Zigzag Conversion</h3>
 <a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
+
+<h3>Roman To Integer</h3>
+<a href="https://leetcode.com/problems/roman-to-integer/description/">Link for this task</a>
+<p>Little note: I used HashMap class to create a dictionary with all values of Roman integers</p>
