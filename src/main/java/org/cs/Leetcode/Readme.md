@@ -3,6 +3,7 @@
 
 <h2>From Easy to Hard</h2>
 
+<h2>Easy</h2>
 <h3>TwoNums</h3>
 <a href="https://leetcode.com/problems/two-sum/">Link for this task</a>
 <p>Little note: in solution I used Bubble Sort algorithm loops</p>
@@ -29,9 +30,13 @@
 <h3>Longest Common Prefix</h3>
 <a href="https://leetcode.com/problems/longest-common-prefix/">Link for this task</a>
 
-<h3>Zigzag Conversion</h3>
-<a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
-
 <h3>Roman To Integer</h3>
 <a href="https://leetcode.com/problems/roman-to-integer/description/">Link for this task</a>
 <p>Little note: I used HashMap class to create a dictionary with all values of Roman integers</p>
+
+<h3>Remove Element</h3>
+<a href="https://leetcode.com/problems/remove-element/">Link for this task</a>
+
+<h2>Medium</h2>
+<h3>Zigzag Conversion</h3>
+<a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
