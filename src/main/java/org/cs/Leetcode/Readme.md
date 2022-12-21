@@ -37,6 +37,9 @@
 <h3>Remove Element</h3>
 <a href="https://leetcode.com/problems/remove-element/">Link for this task</a>
 
+<h3>Reverse Integer</h3>
+<a href="https://leetcode.com/problems/reverse-integer/description/">Link for this task</a>
+
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
 <a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
