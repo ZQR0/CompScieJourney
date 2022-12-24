@@ -37,9 +37,18 @@
 <h3>Remove Element</h3>
 <a href="https://leetcode.com/problems/remove-element/">Link for this task</a>
 
-<h3>Reverse Integer</h3>
-<a href="https://leetcode.com/problems/reverse-integer/description/">Link for this task</a>
+<h3>Binary Tree in order traversal</h3>
+<a href="https://leetcode.com/problems/binary-tree-inorder-traversal/description/">Link for this task</a>
+
+<h3>Remove Duplicates from Sorted List</h3>
+<a href="https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/">Link for this task</a>
+
+<h3>Plus One</h3>
+<a href="https://leetcode.com/problems/plus-one/description/">Link for this task</a>
 
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
 <a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
+
+<h3>Reverse Integer</h3>
+<a href="https://leetcode.com/problems/reverse-integer/description/">Link for this task</a>
