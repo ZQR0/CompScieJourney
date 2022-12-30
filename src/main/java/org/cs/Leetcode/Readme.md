@@ -54,6 +54,8 @@
 <h3>Contains Duplicate</h3>
 <a href="https://leetcode.com/problems/contains-duplicate/description/">Link for this task</a>
 
+<h3>Remove Duplicates from Sorted Array</h3>
+<a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">Link for this task</a>
 
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
