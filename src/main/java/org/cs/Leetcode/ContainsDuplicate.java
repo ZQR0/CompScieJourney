@@ -1,5 +1,6 @@
 package org.cs.Leetcode;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -26,5 +27,26 @@ public class ContainsDuplicate {
         }
 
         return true;
+    }
+
+    /*
+    * Second solution
+    */
+    public boolean containsDuplicateTwo(int[] nums) {
+        if (nums.length <= 1) return false;
+
+        Arrays.sort(nums);
+
+        int t = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            if (t == nums[i]) {
+                return true;
+            }
+
+            t = nums[i];
+        }
+
+        return false;
     }
 }
