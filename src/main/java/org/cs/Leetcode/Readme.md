@@ -46,6 +46,9 @@
 <h3>Plus One</h3>
 <a href="https://leetcode.com/problems/plus-one/description/">Link for this task</a>
 
+<h3>Valid Parentheses</h3>
+<a href="https://leetcode.com/problems/valid-parentheses/description/">Link for this task</a>
+
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
 <a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
