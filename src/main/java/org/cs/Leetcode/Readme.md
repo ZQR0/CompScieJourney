@@ -47,7 +47,13 @@
 <a href="https://leetcode.com/problems/plus-one/description/">Link for this task</a>
 
 <h3>Valid Parentheses</h3>
-<a href="https://leetcode.com/problems/valid-parentheses/description/">Link for this task</a>
+<a href="https://leetcode.com/problems/valid-parentheses/description/">Link for this task</a><br>
+<code>Input: "()[] --> output: true"</code><br>
+<code>Input "(]" --> output: false</code>
+
+<h3>Contains Duplicate</h3>
+<a href="https://leetcode.com/problems/contains-duplicate/description/">Link for this task</a>
+
 
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
