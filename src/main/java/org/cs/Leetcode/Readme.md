@@ -57,9 +57,16 @@
 <h3>Remove Duplicates from Sorted Array</h3>
 <a href="https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/">Link for this task</a>
 
+<h3>Search Insert Position</h3>
+<a href="https://leetcode.com/problems/search-insert-position/">Link for this task</a>
+
+
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
 <a href="https://leetcode.com/problems/zigzag-conversion/">Link for this task</a>
 
 <h3>Reverse Integer</h3>
 <a href="https://leetcode.com/problems/reverse-integer/description/">Link for this task</a>
+
+<h3>Integer To Roman</h3>
+<a href="https://leetcode.com/problems/integer-to-roman/description/">Link for this task</a>
