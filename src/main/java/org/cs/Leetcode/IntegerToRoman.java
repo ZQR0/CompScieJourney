@@ -3,11 +3,22 @@ package org.cs.Leetcode;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/*
+* @author ZQR0
+* @since 2.01.2023
+* IntegerToRoman leetcode solution
+*/
 public class IntegerToRoman {
+    /*
+    * @method intToRoman
+    * @param int num - input number
+    * @returns string of created from input param to Roman Integer
+    */
     public String intToRoman(int num) {
         Map<String, Integer> values = new LinkedHashMap<>();
         StringBuilder sb = new StringBuilder();
 
+        // Added more types of integers, than given in task condition
         values.put("M",1000);
         values.put("CM",900);
         values.put("D",500);
