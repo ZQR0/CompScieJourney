@@ -21,3 +21,8 @@
 <img src="https://www.programiz.com/sites/tutorial2program/files/build-max-heap-2_01.png">
 <h5>Complexity time is O(n log n)</h5>
 <h5>Space Complexity is O(1)</h5>
+
+<h3>Gnome Sort</h3>
+<img src="https://www.w3resource.com/w3r_images/Sorting_gnomesort_anim.gif">
+<h5>Complexity time is O(n^2)</h5>
+<h5>Space Complexity is O(1)</h5>
