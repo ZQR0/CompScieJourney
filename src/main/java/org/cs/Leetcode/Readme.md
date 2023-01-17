@@ -66,6 +66,9 @@
 <h3>Single Number</h3>
 <a href="https://leetcode.com/problems/single-number/">Link for this task</a>
 
+<h3>Add Binary</h3>
+<a href="https://leetcode.com/problems/add-binary/description/">Link for this task</a>
+
 
 <h2>Medium</h2>
 <h3>Zigzag Conversion</h3>
